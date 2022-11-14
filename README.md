@@ -33,9 +33,11 @@ be, and an indication of whether it currently exists.
 
 The output is TSV file in the format
 
+```text
 (BAM file path)\t(Fingerprint path in S3)
 (BAM file path)\t(Fingerprint path in S3)
 (BAM file path)\t(Fingerprint path in S3)
 (BAM file path)\t(Fingerprint path in S3)
+```
 
 where fingerprint path is an empty string if that fingerprint does not actually exist.
